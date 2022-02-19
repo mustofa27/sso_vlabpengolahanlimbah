@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'App\Http\Controllers\MainController@index');
-Route::get('/logout', ['as' => 'logout', 'uses' => 'App\Http\Controllers\MainController@logout']);
+Route::get('/logout', 'App\Http\Controllers\MainController@logout');
