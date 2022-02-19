@@ -12,7 +12,7 @@ class MainController extends Controller
     //
     public function index()
     {
-        if (!is_null(Session::get('id_token'))) {
+        if (is_null(Session::get('id_token'))) {
             try {
                 $oidc = new OpenIDConnectClient(
                             'https://my.its.ac.id', // authorization_endpoint
