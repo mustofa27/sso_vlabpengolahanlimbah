@@ -44,10 +44,10 @@ class MainController extends Controller
     public function logout()
     {
         try {
+            $accessToken = Session::get('id_token');
+            Session::flush();
             $redirect = 'http://riset.its.ac.id/praktikum/vlab-pengolahanlimbah'; // set https://dev-my.its.ac.id or https://my.its.ac.id if you don't register post-logout URI
             if (Session::has('id_token')) {
-                $accessToken = Session::get('id_token');
-                
                 $oidc = new OpenIDConnectClient(
                             'https://my.its.ac.id', // authorization_endpoint
                             '9B0B5CC9-1166-4ABA-AC51-F4657FC00710', // Client ID
@@ -59,7 +59,6 @@ class MainController extends Controller
                 $oidc->setVerifyPeer(false);
                 $oidc->signOut($accessToken, $redirect);
             }
-            Session::flush();
             header("Location: " . $redirect);
         } catch (OpenIDConnectClientException $e) {
             echo $e->getMessage();
