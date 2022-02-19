@@ -15,7 +15,7 @@
     <title>Lab Pengolahan Limbah ITS</title>
 
     <!-- Bootstrap core CSS -->
-    <link href={{ asset('template/bootstrap/css/bootstrap.min.css') }} rel="stylesheet">
+    <link href='https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/bootstrap/css/bootstrap.min.css' rel="stylesheet">
 
 <!--
 
@@ -27,9 +27,9 @@ https://templatemo.com/tm-570-chain-app-dev
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href={{ asset('template/css/templatemo-chain-app-dev.css') }}>
-    <link rel="stylesheet" href={{ asset('template/css/animated.css') }}>
-    <link rel="stylesheet" href={{ asset('template/css/owl.css') }}>
+    <link rel="stylesheet" href='https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/css/templatemo-chain-app-dev.css'>
+    <link rel="stylesheet" href='https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/css/animated.css'>
+    <link rel="stylesheet" href='https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/css/owl.css'>
 
   </head>
 
@@ -56,7 +56,7 @@ https://templatemo.com/tm-570-chain-app-dev
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
-              <img src={{ asset('template/images/logo_its.png') }} alt="Lab Pengolahan Limbah ITS" style="height: 80px; width:auto;">
+              <img src='https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/images/logo_its.png' alt="Lab Pengolahan Limbah ITS" style="height: 80px; width:auto;">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
@@ -180,7 +180,7 @@ https://templatemo.com/tm-570-chain-app-dev
             </div>
             <div class="col-lg-6">
               <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src={{ asset('template/images/slider-dec.png') }} alt="">
+                <img src='https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/images/slider-dec.png' alt="">
               </div>
             </div>
           </div>
@@ -195,7 +195,7 @@ https://templatemo.com/tm-570-chain-app-dev
         <div class="col-lg-8 offset-lg-2">
           <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
             <h4><em>About Us</em></h4>
-            <img src={{ asset('template/images/heading-line-dec.png') }} alt="">
+            <img src='https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/images/heading-line-dec.png' alt="">
           </div>
         </div>
       </div>
@@ -318,7 +318,7 @@ https://templatemo.com/tm-570-chain-app-dev
         <div class="col-lg-8 offset-lg-2">
           <div class="section-heading">
             <h4><em>Products</em></h4>
-            <img src={{ asset('template/images/heading-line-dec.png') }} alt="">
+            <img src='https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/images/heading-line-dec.png' alt="">
           </div>
         </div>
         <div class="col-lg-4">
@@ -326,7 +326,7 @@ https://templatemo.com/tm-570-chain-app-dev
             <span class="price">1</span>
             <h4>Modul 1</h4>
             <div class="icon">
-              <img src={{ asset('template/images/pricing-table-01.png') }} alt="">
+              <img src='https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/images/pricing-table-01.png' alt="">
             </div>
             <ul>
               <li>Lorem Ipsum Dolores</li>
@@ -346,7 +346,7 @@ https://templatemo.com/tm-570-chain-app-dev
             <span class="price">2</span>
             <h4>Modul 2</h4>
             <div class="icon">
-              <img src={{ asset('template/images/pricing-table-01.png') }} alt="">
+              <img src='https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/images/pricing-table-01.png' alt="">
             </div>
             <ul>
               <li>Lorem Ipsum Dolores</li>
@@ -366,7 +366,7 @@ https://templatemo.com/tm-570-chain-app-dev
             <span class="price">3</span>
             <h4>Modul 3</h4>
             <div class="icon">
-              <img src={{ asset('template/images/pricing-table-01.png') }} alt="">
+              <img src='https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/images/pricing-table-01.png' alt="">
             </div>
             <ul>
               <li>Lorem Ipsum Dolores</li>
@@ -400,12 +400,12 @@ https://templatemo.com/tm-570-chain-app-dev
 
 
   <!-- Scripts -->
-  <script src={{ asset('template/jquery/jquery.min.js') }}></script>
-  <script src={{ asset('template/bootstrap/js/bootstrap.bundle.min.js') }}></script>
-  <script src={{ asset('template/js/owl-carousel.js') }}></script>
-  <script src={{ asset('template/js/animation.js') }}></script>
-  <script src={{ asset('template/js/imagesloaded.js') }}></script>
-  <script src={{ asset('template/js/popup.js') }}></script>
-  <script src={{ asset('template/js/custom.js') }}></script>
+  <script src='https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/jquery/jquery.min.js'></script>
+  <script src='https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/bootstrap/js/bootstrap.bundle.min.js'></script>
+  <script src='https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/js/owl-carousel.js'></script>
+  <script src='https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/js/animation.js'></script>
+  <script src='https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/js/imagesloaded.js'></script>
+  <script src='https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/js/popup.js'></script>
+  <script src='https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/js/custom.js'></script>
 </body>
 </html>
