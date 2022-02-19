@@ -11,7 +11,7 @@ class MainController extends Controller
     //
     public function index()
     {
-        if (!isset($_SESSION['id_token'])) {
+        if (!is_null($_SESSION['id_token'])) {
             try {
                 $oidc = new OpenIDConnectClient(
                             'https://my.its.ac.id', // authorization_endpoint
