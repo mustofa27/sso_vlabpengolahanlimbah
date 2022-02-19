@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'App\Http\Controllers\MainController@index');
 Route::get('/logout', 'App\Http\Controllers\MainController@logout');
+Route::get('/postlogout', 'App\Http\Controllers\MainController@logout');
