@@ -37,6 +37,7 @@ class MainController extends Controller
             }
         } else{
             //return view('welcome');
+            Session::flush();
             echo Session::get('id_token');
         }
     }
