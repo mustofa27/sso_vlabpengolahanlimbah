@@ -36,7 +36,7 @@ class MainController extends Controller
                 echo $e->getMessage();
             }
         } else{
-            print($_SESSION['id_token']);
+            print("masuk langsung");
             //return view('welcome');
         }
     }
