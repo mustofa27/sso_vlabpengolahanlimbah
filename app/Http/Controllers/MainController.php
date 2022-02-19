@@ -36,12 +36,7 @@ class MainController extends Controller
                 echo $e->getMessage();
             }
         } else{
-            if(Session::has('isLogout')){
-                Session::flush();
-                return redirect('/');
-            } else{
-                return view('welcome');
-            }
+            return view('welcome');
         }
     }
     public function logout()
@@ -49,8 +44,9 @@ class MainController extends Controller
         try {
             $redirect = 'http://riset.its.ac.id/praktikum/vlab-pengolahanlimbah'; // set https://dev-my.its.ac.id or https://my.its.ac.id if you don't register post-logout URI
             if (Session::has('id_token')) {
-                Session::put('isLogout', true);
                 $accessToken = Session::get('id_token');
+                Session::forget('id_token');
+                Session::save();
                 $oidc = new OpenIDConnectClient(
                             'https://my.its.ac.id', // authorization_endpoint
                             '9B0B5CC9-1166-4ABA-AC51-F4657FC00710', // Client ID
