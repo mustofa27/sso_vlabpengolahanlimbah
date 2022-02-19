@@ -64,7 +64,7 @@ https://templatemo.com/tm-570-chain-app-dev
               <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
               <li class="scroll-to-section"><a href="#about">About Us</a></li>
               <li class="scroll-to-section"><a href="#product">Product</a></li>
-              <li><div class="gradient-button"><a href="{{ route('logout') }}"><i class="fa fa-sign-out-alt"></i> Sign Out</a></div></li> 
+              <li><div class="gradient-button"><a href="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/logout"><i class="fa fa-sign-out-alt"></i> Sign Out</a></div></li> 
             </ul>        
             <a class='menu-trigger'>
                 <span>Menu</span>
