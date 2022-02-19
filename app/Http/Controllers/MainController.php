@@ -30,22 +30,20 @@ class MainController extends Controller
                 $oidc->authenticate(); //call the main function of myITS SSO login
             
                 Session::put('id_token', $oidc->getIdToken()); // must be save for check session dan logout proccess
-                print(Session::get('id_token'));
-                // $user = $oidc->requestUserInfo(); // this will return user information from myITS SSO database
-                // return view('welcome');
+                $user = $oidc->requestUserInfo(); // this will return user information from myITS SSO database
+                return view('welcome');
             } catch (OpenIDConnectClientException $e) {
                 echo $e->getMessage();
             }
         } else{
-            print("masuk langsung");
-            //return view('welcome');
+            return view('welcome');
         }
     }
     public function logout()
     {
         try {
             $redirect = 'http://riset.its.ac.id/praktikum/vlab-pengolahanlimbah'; // set https://dev-my.its.ac.id or https://my.its.ac.id if you don't register post-logout URI
-            if (isset($_SESSION['id_token'])) {
+            if (!is_null(Session::get('id_token'))) {
                 $accessToken = $_SESSION['id_token'];
         
                 $oidc = new OpenIDConnectClient(
