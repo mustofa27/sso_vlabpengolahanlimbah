@@ -45,7 +45,7 @@ class MainController extends Controller
     {
         try {
             $accessToken = Session::get('id_token');
-            Session::flush();
+            Session::forget('id_token');
             $redirect = 'http://riset.its.ac.id/praktikum/vlab-pengolahanlimbah'; // set https://dev-my.its.ac.id or https://my.its.ac.id if you don't register post-logout URI
             if (Session::has('id_token')) {
                 $oidc = new OpenIDConnectClient(
