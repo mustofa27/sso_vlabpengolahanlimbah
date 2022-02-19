@@ -55,7 +55,7 @@ class MainController extends Controller
                 // remove this if in production mode
                 $oidc->setVerifyHost(false);
                 $oidc->setVerifyPeer(false);
-                Session::forget('id_token');
+                Session::flush();
                 $oidc->signOut($accessToken, $redirect);
             }
         
