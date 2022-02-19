@@ -29,13 +29,15 @@ class MainController extends Controller
                 $oidc->authenticate(); //call the main function of myITS SSO login
             
                 $_SESSION['id_token'] = $oidc->getIdToken(); // must be save for check session dan logout proccess
-                $user = $oidc->requestUserInfo(); // this will return user information from myITS SSO database
-                return view('welcome');
+                print($_SESSION['id_token']);
+                // $user = $oidc->requestUserInfo(); // this will return user information from myITS SSO database
+                // return view('welcome');
             } catch (OpenIDConnectClientException $e) {
                 echo $e->getMessage();
             }
         } else{
-            return view('welcome');
+            print($_SESSION['id_token']);
+            //return view('welcome');
         }
     }
     public function logout()
