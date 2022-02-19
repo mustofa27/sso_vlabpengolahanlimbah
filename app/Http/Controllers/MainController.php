@@ -47,7 +47,7 @@ class MainController extends Controller
     public function logout()
     {
         try {
-            $redirect = 'http://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/'; // set https://dev-my.its.ac.id or https://my.its.ac.id if you don't register post-logout URI
+            $redirect = 'http://riset.its.ac.id/praktikum/vlab-pengolahanlimbah'; // set https://dev-my.its.ac.id or https://my.its.ac.id if you don't register post-logout URI
             if (Session::has('id_token')) {
                 Session::put('isLogout', true);
                 $accessToken = Session::get('id_token');
