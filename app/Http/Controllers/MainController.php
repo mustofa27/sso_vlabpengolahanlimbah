@@ -5,13 +5,14 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Its\Sso\OpenIDConnectClient;
 use Its\Sso\OpenIDConnectClientException;
+use Session;
 
 class MainController extends Controller
 {
     //
     public function index()
     {
-        if (isset($_SESSION['id_token'])) {
+        if (is_null(Session::get('token'))) {
             try {
                 $oidc = new OpenIDConnectClient(
                             'https://my.its.ac.id', // authorization_endpoint
@@ -27,8 +28,7 @@ class MainController extends Controller
                 $oidc->setVerifyPeer(false);
             
                 $oidc->authenticate(); //call the main function of myITS SSO login
-            
-                $_SESSION['id_token'] = $oidc->getIdToken(); // must be save for check session dan logout proccess
+                Session::put('token', $oidc->getIdToken());
                 $user = $oidc->requestUserInfo(); // this will return user information from myITS SSO database
             } catch (OpenIDConnectClientException $e) {
                 echo $e->getMessage();
@@ -40,13 +40,9 @@ class MainController extends Controller
     public function logout()
     {
         try {
-            session_start();
             $redirect = 'http://riset.its.ac.id/praktikum/vlab-pengolahanlimbah'; // set https://dev-my.its.ac.id or https://my.its.ac.id if you don't register post-logout URI
-        
-            if (isset($_SESSION['id_token'])) {
+            if (!is_null(Session::get('token'))) {
                 $accessToken = $_SESSION['id_token'];
-        
-                session_destroy();
         
                 $oidc = new OpenIDConnectClient(
                             'https://my.its.ac.id', // authorization_endpoint
