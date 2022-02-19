@@ -37,7 +37,7 @@ class MainController extends Controller
             }
         } else{
             //return view('welcome');
-            Session::flush();
+            // Session::flush();
             echo Session::get('id_token');
         }
     }
@@ -47,7 +47,7 @@ class MainController extends Controller
             $redirect = 'http://riset.its.ac.id/praktikum/vlab-pengolahanlimbah'; // set https://dev-my.its.ac.id or https://my.its.ac.id if you don't register post-logout URI
             if (Session::has('id_token')) {
                 $accessToken = Session::get('id_token');
-        
+                Session::flush();
                 $oidc = new OpenIDConnectClient(
                             'https://my.its.ac.id', // authorization_endpoint
                             '9B0B5CC9-1166-4ABA-AC51-F4657FC00710', // Client ID
@@ -57,7 +57,6 @@ class MainController extends Controller
                 // remove this if in production mode
                 $oidc->setVerifyHost(false);
                 $oidc->setVerifyPeer(false);
-                Session::flush();
                 $oidc->signOut($accessToken, $redirect);
             }
         
