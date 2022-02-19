@@ -55,8 +55,8 @@ class MainController extends Controller
                 // remove this if in production mode
                 $oidc->setVerifyHost(false);
                 $oidc->setVerifyPeer(false);
-                $oidc->signOut($accessToken, $redirect);
                 Session::forget('id_token');
+                $oidc->signOut($accessToken, $redirect);
             }
         
             header("Location: " . $redirect);
