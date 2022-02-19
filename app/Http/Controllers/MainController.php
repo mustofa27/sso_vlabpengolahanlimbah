@@ -36,7 +36,8 @@ class MainController extends Controller
                 echo $e->getMessage();
             }
         } else{
-            return view('welcome');
+            //return view('welcome');
+            echo Session::get('id_token');
         }
     }
     public function logout()
