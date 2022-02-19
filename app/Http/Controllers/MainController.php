@@ -5,13 +5,14 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Its\Sso\OpenIDConnectClient;
 use Its\Sso\OpenIDConnectClientException;
+use Session;
 
 class MainController extends Controller
 {
     //
     public function index()
     {
-        if (!is_null($_SESSION['id_token'])) {
+        if (!is_null(Session::get('id_token'))) {
             try {
                 $oidc = new OpenIDConnectClient(
                             'https://my.its.ac.id', // authorization_endpoint
@@ -28,8 +29,8 @@ class MainController extends Controller
             
                 $oidc->authenticate(); //call the main function of myITS SSO login
             
-                $_SESSION['id_token'] = $oidc->getIdToken(); // must be save for check session dan logout proccess
-                print($_SESSION['id_token']);
+                Session::put('id_token', $oidc->getIdToken()); // must be save for check session dan logout proccess
+                print(Session::get('id_token'));
                 // $user = $oidc->requestUserInfo(); // this will return user information from myITS SSO database
                 // return view('welcome');
             } catch (OpenIDConnectClientException $e) {
