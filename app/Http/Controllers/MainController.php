@@ -56,6 +56,7 @@ class MainController extends Controller
                 $oidc->setVerifyHost(false);
                 $oidc->setVerifyPeer(false);
                 $oidc->signOut($accessToken, $redirect);
+                Session::forget('id_token');
             }
         
             header("Location: " . $redirect);
