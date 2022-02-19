@@ -36,16 +36,20 @@ class MainController extends Controller
                 echo $e->getMessage();
             }
         } else{
-            //return view('welcome');
-            // Session::flush();
-            echo Session::get('id_token');
+            if(Session::has('isLogout')){
+                Session::flush();
+                return redirect('/');
+            } else{
+                return view('welcome');
+            }
         }
     }
     public function logout()
     {
         try {
-            $redirect = 'http://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/postlogout'; // set https://dev-my.its.ac.id or https://my.its.ac.id if you don't register post-logout URI
+            $redirect = 'http://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/'; // set https://dev-my.its.ac.id or https://my.its.ac.id if you don't register post-logout URI
             if (Session::has('id_token')) {
+                Session::put('isLogout', true);
                 $accessToken = Session::get('id_token');
                 $oidc = new OpenIDConnectClient(
                             'https://my.its.ac.id', // authorization_endpoint
@@ -62,9 +66,5 @@ class MainController extends Controller
         } catch (OpenIDConnectClientException $e) {
             echo $e->getMessage();
         }
-    }
-    public function postLogout(){
-        Session::flush();
-        return redirect('/');
     }
 }
