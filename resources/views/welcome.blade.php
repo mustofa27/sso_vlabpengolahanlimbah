@@ -115,112 +115,67 @@ https://templatemo.com/tm-570-chain-app-dev
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-4">
             <div class="service-item margin-bottom20">
                 <div class="icon-dosen">
-                    <img class="rounded-circle mx-auto d-block" src="https://picsum.photos/id/3/80/80" data-holder-rendered="true">
+                    <img class="rounded-circle mx-auto d-block" src="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/images/soeprijanto.png" data-holder-rendered="true">
                 </div>
                 <div class="text-center">
-                    <h4 class="nama-dosen">Garner Noble</h4>
-                    <p class="black">195308301974032002</p>
-                    <p class="jurusan">Teknik Informatika</p>
+                    <h4 class="nama-dosen">Prof. Dr. Ir. Soeprijanto, M.Sc</h4>
+                    <p class="jurusan">Departemen Teknik Kimia Industri, Fakultas Vokasi</p>
                 </div>
                 
             </div>
         </div>      
-        <div class="col-lg-3">
+        <div class="col-lg-4">
             <div class="service-item margin-bottom20">
                 <div class="icon-dosen">
-                    <img class="rounded-circle mx-auto d-block" src="https://picsum.photos/id/3/80/80" data-holder-rendered="true">
+                    <img class="rounded-circle mx-auto d-block" src="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/images/ridho.png" data-holder-rendered="true">
                 </div>
                 <div class="text-center">
-                    <h4 class="nama-dosen">Garner Noble</h4>
-                    <p class="black">195308301974032002</p>
-                    <p class="jurusan">Teknik Informatika</p>
+                    <h4 class="nama-dosen">Daril Ridho Zuchrillah, ST., MT</h4>
+                    <p class="jurusan">Departemen Teknik Kimia Industri, Fakultas Vokasi</p>
                 </div>
                 
             </div>
         </div>  
-        <div class="col-lg-3">
+        <div class="col-lg-4">
             <div class="service-item margin-bottom20">
                 <div class="icon-dosen">
-                    <img class="rounded-circle mx-auto d-block" src="https://picsum.photos/id/3/80/80" data-holder-rendered="true">
+                    <img class="rounded-circle mx-auto d-block" src="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/images/saidah.png" data-holder-rendered="true">
                 </div>
                 <div class="text-center">
-                    <h4 class="nama-dosen">Garner Noble</h4>
-                    <p class="black">195308301974032002</p>
-                    <p class="jurusan">Teknik Informatika</p>
+                    <h4 class="nama-dosen">Dr. Ir. Saidah Altway, M.Sc</h4>
+                    <p class="jurusan">Departemen Teknik Kimia Industri, Fakultas Vokasi</p>
                 </div>
-                
             </div>
-        </div>  
-        <div class="col-lg-3">
-            <div class="service-item margin-bottom20">
-                <div class="icon-dosen">
-                    <img class="rounded-circle mx-auto d-block" src="https://picsum.photos/id/3/80/80" data-holder-rendered="true">
-                </div>
-                <div class="text-center">
-                    <h4 class="nama-dosen">Garner Noble</h4>
-                    <p class="black">195308301974032002</p>
-                    <p class="jurusan">Teknik Informatika</p>
-                </div>
-                
-            </div>
-        </div>  
+        </div> 
       </div>
       <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-6">
             <div class="service-item margin-bottom20">
                 <div class="icon-dosen">
-                    <img class="rounded-circle mx-auto d-block" src="https://picsum.photos/id/3/80/80" data-holder-rendered="true">
+                    <img class="rounded-circle mx-auto d-block" src="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/images/hadziq.png" data-holder-rendered="true">
                 </div>
                 <div class="text-center">
-                    <h4 class="nama-dosen">Garner Noble</h4>
-                    <p class="black">195308301974032002</p>
-                    <p class="jurusan">Teknik Informatika</p>
+                    <h4 class="nama-dosen">Hadziq Fabroyir, S.Kom., Ph.D.</h4>
+                    <p class="jurusan">Departemen Teknik Informatika, FTE-IC</p>
                 </div>
                 
             </div>
         </div>      
-        <div class="col-lg-3">
+        <div class="col-lg-6">
             <div class="service-item margin-bottom20">
                 <div class="icon-dosen">
-                    <img class="rounded-circle mx-auto d-block" src="https://picsum.photos/id/3/80/80" data-holder-rendered="true">
+                    <img class="rounded-circle mx-auto d-block" src="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/images/siska.png" data-holder-rendered="true">
                 </div>
                 <div class="text-center">
-                    <h4 class="nama-dosen">Garner Noble</h4>
-                    <p class="black">195308301974032002</p>
-                    <p class="jurusan">Teknik Informatika</p>
+                    <h4 class="nama-dosen">Siska Arifiani, S.Kom., M.Kom.</h4>
+                    <p class="jurusan">Departemen Teknik Informatika, FTE-IC</p>
                 </div>
                 
             </div>
-        </div>  
-        <div class="col-lg-3">
-            <div class="service-item margin-bottom20">
-                <div class="icon-dosen">
-                    <img class="rounded-circle mx-auto d-block" src="https://picsum.photos/id/3/80/80" data-holder-rendered="true">
-                </div>
-                <div class="text-center">
-                    <h4 class="nama-dosen">Garner Noble</h4>
-                    <p class="black">195308301974032002</p>
-                    <p class="jurusan">Teknik Informatika</p>
-                </div>
-                
-            </div>
-        </div>  
-        <div class="col-lg-3">
-            <div class="service-item margin-bottom20">
-                <div class="icon-dosen">
-                    <img class="rounded-circle mx-auto d-block" src="https://picsum.photos/id/3/80/80" data-holder-rendered="true">
-                </div>
-                <div class="text-center">
-                    <h4 class="nama-dosen">Garner Noble</h4>
-                    <p class="black">195308301974032002</p>
-                    <p class="jurusan">Teknik Informatika</p>
-                </div>
-                
-            </div>
-        </div>  
+        </div>
       </div>
     </div>
   </div>
