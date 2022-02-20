@@ -117,9 +117,11 @@ https://templatemo.com/tm-570-chain-app-dev
       <div class="row">
         <div class="col-lg-4">
             <div class="service-item margin-bottom20">
+              <center>
                 <div class="icon-dosen">
                     <img class="rounded-circle mx-auto d-block" src="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/images/soeprijanto.png" data-holder-rendered="true">
                 </div>
+              </center>
                 <div class="text-center">
                     <h4 class="nama-dosen">Prof. Dr. Ir. Soeprijanto, M.Sc</h4>
                     <p class="jurusan">Departemen Teknik Kimia Industri, Fakultas Vokasi</p>
@@ -129,9 +131,11 @@ https://templatemo.com/tm-570-chain-app-dev
         </div>      
         <div class="col-lg-4">
             <div class="service-item margin-bottom20">
+              <center>
                 <div class="icon-dosen">
                     <img class="rounded-circle mx-auto d-block" src="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/images/ridho.png" data-holder-rendered="true">
                 </div>
+              </center>
                 <div class="text-center">
                     <h4 class="nama-dosen">Daril Ridho Zuchrillah, ST., MT</h4>
                     <p class="jurusan">Departemen Teknik Kimia Industri, Fakultas Vokasi</p>
@@ -141,9 +145,11 @@ https://templatemo.com/tm-570-chain-app-dev
         </div>  
         <div class="col-lg-4">
             <div class="service-item margin-bottom20">
+              <center>
                 <div class="icon-dosen">
                     <img class="rounded-circle mx-auto d-block" src="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/images/saidah.png" data-holder-rendered="true">
                 </div>
+              </center>
                 <div class="text-center">
                     <h4 class="nama-dosen">Dr. Ir. Saidah Altway, M.Sc</h4>
                     <p class="jurusan">Departemen Teknik Kimia Industri, Fakultas Vokasi</p>
@@ -154,9 +160,11 @@ https://templatemo.com/tm-570-chain-app-dev
       <div class="row">
         <div class="col-lg-6">
             <div class="service-item margin-bottom20">
+              <center>
                 <div class="icon-dosen">
                     <img class="rounded-circle mx-auto d-block" src="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/images/hadziq.png" data-holder-rendered="true">
                 </div>
+              </center>
                 <div class="text-center">
                     <h4 class="nama-dosen">Hadziq Fabroyir, S.Kom., Ph.D.</h4>
                     <p class="jurusan">Departemen Teknik Informatika, FTE-IC</p>
@@ -166,9 +174,11 @@ https://templatemo.com/tm-570-chain-app-dev
         </div>      
         <div class="col-lg-6">
             <div class="service-item margin-bottom20">
+              <center>
                 <div class="icon-dosen">
                     <img class="rounded-circle mx-auto d-block" src="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/images/siska.png" data-holder-rendered="true">
                 </div>
+              </center>
                 <div class="text-center">
                     <h4 class="nama-dosen">Siska Arifiani, S.Kom., M.Kom.</h4>
                     <p class="jurusan">Departemen Teknik Informatika, FTE-IC</p>
