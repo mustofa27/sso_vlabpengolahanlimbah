@@ -18,3 +18,4 @@ Route::get('/logout', 'App\Http\Controllers\MainController@logout');
 Route::get('/cod', 'App\Http\Controllers\MainController@cod');
 Route::get('/aerobik', 'App\Http\Controllers\MainController@aerobik');
 Route::get('/anaerobik', 'App\Http\Controllers\MainController@anaerobik');
+Route::get('/tes', 'App\Http\Controllers\MainController@aerobik');
