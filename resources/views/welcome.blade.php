@@ -215,7 +215,7 @@ https://templatemo.com/tm-570-chain-app-dev
               <li class="non-function">Lorem Ipsum Dolores</li>
             </ul>
             <div class="border-button">
-              <a href="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/cod">Pelajari Modul</a>
+              <a href="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/modul_cod">Pelajari Modul</a>
             </div>
           </div>
         </div>
@@ -235,7 +235,7 @@ https://templatemo.com/tm-570-chain-app-dev
               <li class="non-function">Lorem Ipsum Dolores</li>
             </ul>
             <div class="border-button">
-              <a href="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/aerobik">Pelajari Modul</a>
+              <a href="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/modul_aerobik">Pelajari Modul</a>
             </div>
           </div>
         </div>
@@ -255,7 +255,7 @@ https://templatemo.com/tm-570-chain-app-dev
               <li>Lorem Ipsum Dolores</li>
             </ul>
             <div class="border-button">
-              <a href="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/anaerobik">Pelajari Modul</a>
+              <a href="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/modul_anaerobik">Pelajari Modul</a>
             </div>
           </div>
         </div>

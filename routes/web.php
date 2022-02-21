@@ -15,7 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'App\Http\Controllers\MainController@index');
 Route::get('/logout', 'App\Http\Controllers\MainController@logout');
-Route::get('/cod', 'App\Http\Controllers\MainController@cod');
-Route::get('/aerobik', 'App\Http\Controllers\MainController@aerobik');
-Route::get('/anaerobik', 'App\Http\Controllers\MainController@anaerobik');
-Route::get('/tes', 'App\Http\Controllers\MainController@aerobik');
+Route::get('/modul_cod', 'App\Http\Controllers\MainController@cod');
+Route::get('/modul_aerobik', 'App\Http\Controllers\MainController@aerobik');
+Route::get('/modul_anaerobik', 'App\Http\Controllers\MainController@anaerobik');
