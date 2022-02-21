@@ -5,10 +5,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Tilia + DePanther WXRE</title>
     <meta name="description" content="">
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>
-    <script src="Build/UnityLoader.js"></script>
+    <link rel="shortcut icon" href="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/cod/TemplateData/favicon.ico">
+    <link rel="stylesheet" href="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/cod/TemplateData/style.css">
+    <script src="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/cod/TemplateData/UnityProgress.js"></script>
+    <script src="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/cod/Build/UnityLoader.js"></script>
     <script>
       UnityLoader.compatibilityCheck = function (unityInstance, onsuccess, onerror) {
         if (!UnityLoader.SystemInfo.hasWebGL) {
@@ -18,7 +18,7 @@
           onsuccess();
         }
       }
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/dicobabram.json", {onProgress: UnityProgress});
+      var unityInstance = UnityLoader.instantiate("unityContainer", "https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/cod/Build/dicobabram.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
