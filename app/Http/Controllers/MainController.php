@@ -36,7 +36,7 @@ class MainController extends Controller
                 echo $e->getMessage();
             }
         } else{
-            return view('welcome');
+            return view('cod.index');
         }
     }
     public function logout()
@@ -90,18 +90,6 @@ class MainController extends Controller
                 echo $e->getMessage();
             }
         } else{
-            if(Session::has('jenis')){
-                switch(Session::get('jenis')){
-                    case 1:
-
-                        break;
-                    case 2:
-                        break;
-                    case 3:
-                        return view('aerobik.index');
-                        break;
-                }
-            }
             return view('cod.index');
         }
     }
@@ -138,33 +126,31 @@ class MainController extends Controller
 
     public function anaerobik()
     {
-        echo "menuju anaerobik";
-        // if (!Session::has('id_token')) {
-        //     try {
-        //         $oidc = new OpenIDConnectClient(
-        //                     'https://my.its.ac.id', // authorization_endpoint
-        //                     '9B0B5CC9-1166-4ABA-AC51-F4657FC00710', // Client ID
-        //                     '1aiqu0dn1z0g8s04c4c488s4' // Client Secret
-        //                 );
+        if (!Session::has('id_token')) {
+            try {
+                $oidc = new OpenIDConnectClient(
+                            'https://my.its.ac.id', // authorization_endpoint
+                            '9B0B5CC9-1166-4ABA-AC51-F4657FC00710', // Client ID
+                            '1aiqu0dn1z0g8s04c4c488s4' // Client Secret
+                        );
             
-        //         $oidc->setRedirectURL('http://riset.its.ac.id/praktikum/vlab-pengolahanlimbah'); // must be the same as you registered
-        //         $oidc->addScope('email group phone profile role openid'); //must be the same as you registered
+                $oidc->setRedirectURL('http://riset.its.ac.id/praktikum/vlab-pengolahanlimbah'); // must be the same as you registered
+                $oidc->addScope('email group phone profile role openid'); //must be the same as you registered
                 
-        //         // remove this if in production mode
-        //         $oidc->setVerifyHost(false);
-        //         $oidc->setVerifyPeer(false);
+                // remove this if in production mode
+                $oidc->setVerifyHost(false);
+                $oidc->setVerifyPeer(false);
             
-        //         $oidc->authenticate(); //call the main function of myITS SSO login
+                $oidc->authenticate(); //call the main function of myITS SSO login
             
-        //         Session::put('id_token', $oidc->getIdToken()); // must be save for check session dan logout proccess
-        //         $user = $oidc->requestUserInfo(); // this will return user information from myITS SSO database
-        //         return view('welcome');
-        //     } catch (OpenIDConnectClientException $e) {
-        //         echo $e->getMessage();
-        //     }
-        // } else{
-        //     Session::put('jenis', 3);
-        //     return redirect('/');
-        // }
+                Session::put('id_token', $oidc->getIdToken()); // must be save for check session dan logout proccess
+                $user = $oidc->requestUserInfo(); // this will return user information from myITS SSO database
+                return view('welcome');
+            } catch (OpenIDConnectClientException $e) {
+                echo $e->getMessage();
+            }
+        } else{
+            return view('anaerobik.index');
+        }
     }
 }
