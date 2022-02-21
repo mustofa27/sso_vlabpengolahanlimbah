@@ -150,7 +150,8 @@ class MainController extends Controller
                 echo $e->getMessage();
             }
         } else{
-            return view('anaerobik.index');
+            //return view('anaerobik.index');
+            echo 'go to anaerobik';
         }
     }
 }
