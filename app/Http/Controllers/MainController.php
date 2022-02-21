@@ -90,6 +90,18 @@ class MainController extends Controller
                 echo $e->getMessage();
             }
         } else{
+            if(Session::has('jenis')){
+                switch(Session::get('jenis')){
+                    case 1:
+
+                        break;
+                    case 2:
+                        break;
+                    case 3:
+                        return view('aerobik.index');
+                        break;
+                }
+            }
             return view('cod.index');
         }
     }
@@ -150,8 +162,8 @@ class MainController extends Controller
                 echo $e->getMessage();
             }
         } else{
-            //return view('anaerobik.index');
-            echo 'go to anaerobik';
+            Session::put('jenis', 3);
+            return redirect('/');
         }
     }
 }
