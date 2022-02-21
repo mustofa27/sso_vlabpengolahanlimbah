@@ -202,7 +202,7 @@ https://templatemo.com/tm-570-chain-app-dev
         <div class="col-lg-4">
           <div class="pricing-item-pro">
             <span class="price">1</span>
-            <h4>Modul 1</h4>
+            <h4>Penentuan Nilai COD</h4>
             <div class="icon">
               <img src='https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/images/pricing-table-01.png' alt="">
             </div>
@@ -215,14 +215,14 @@ https://templatemo.com/tm-570-chain-app-dev
               <li class="non-function">Lorem Ipsum Dolores</li>
             </ul>
             <div class="border-button">
-              <a href="#">Pelajari Modul</a>
+              <a href="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/cod">Pelajari Modul</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="pricing-item-pro">
             <span class="price">2</span>
-            <h4>Modul 2</h4>
+            <h4>Proses Aerobik</h4>
             <div class="icon">
               <img src='https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/images/pricing-table-01.png' alt="">
             </div>
@@ -235,14 +235,14 @@ https://templatemo.com/tm-570-chain-app-dev
               <li class="non-function">Lorem Ipsum Dolores</li>
             </ul>
             <div class="border-button">
-              <a href="#">Pelajari Modul</a>
+              <a href="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/aerobik">Pelajari Modul</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="pricing-item-pro">
             <span class="price">3</span>
-            <h4>Modul 3</h4>
+            <h4>Proses Anaerobik</h4>
             <div class="icon">
               <img src='https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/template/images/pricing-table-01.png' alt="">
             </div>
@@ -255,7 +255,7 @@ https://templatemo.com/tm-570-chain-app-dev
               <li>Lorem Ipsum Dolores</li>
             </ul>
             <div class="border-button">
-              <a href="#">Pelajari Modul</a>
+              <a href="https://riset.its.ac.id/praktikum/vlab-pengolahanlimbah/anaerobik">Pelajari Modul</a>
             </div>
           </div>
         </div>
