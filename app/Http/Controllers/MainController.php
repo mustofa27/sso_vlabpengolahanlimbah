@@ -36,7 +36,7 @@ class MainController extends Controller
                 echo $e->getMessage();
             }
         } else{
-            return view('cod.index');
+            return view('welcome');
         }
     }
     public function logout()
@@ -85,7 +85,7 @@ class MainController extends Controller
             
                 Session::put('id_token', $oidc->getIdToken()); // must be save for check session dan logout proccess
                 $user = $oidc->requestUserInfo(); // this will return user information from myITS SSO database
-                return view('welcome');
+                return view('cod.index');
             } catch (OpenIDConnectClientException $e) {
                 echo $e->getMessage();
             }
@@ -115,7 +115,7 @@ class MainController extends Controller
             
                 Session::put('id_token', $oidc->getIdToken()); // must be save for check session dan logout proccess
                 $user = $oidc->requestUserInfo(); // this will return user information from myITS SSO database
-                return view('welcome');
+                return view('aerobik.index');
             } catch (OpenIDConnectClientException $e) {
                 echo $e->getMessage();
             }
@@ -145,7 +145,7 @@ class MainController extends Controller
             
                 Session::put('id_token', $oidc->getIdToken()); // must be save for check session dan logout proccess
                 $user = $oidc->requestUserInfo(); // this will return user information from myITS SSO database
-                return view('welcome');
+                return view('anaerobik.index');
             } catch (OpenIDConnectClientException $e) {
                 echo $e->getMessage();
             }
